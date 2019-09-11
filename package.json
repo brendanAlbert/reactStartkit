@@ -1,0 +1,32 @@
+{
+  "name": "react-startkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "react-hot-loader": "^4.12.12",
+    "sass": "^1.23.0-module.beta.1",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
